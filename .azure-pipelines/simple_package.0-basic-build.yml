@@ -13,6 +13,7 @@ variables:
   package: simple_package
   srcDirectory: src/$(package)
   testsDirectory: tests/$(package)
+  
 
 # Trigger only when simple_package or its build has been modified
 trigger:
